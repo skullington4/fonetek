@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'fonetek.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Skullington4/finchcollector',
+        'NAME': 'Skullington4/foneteks',
         'USER': os.environ['DB_USER'],
         'PASSWORD': os.environ['DB_PW'],
         'HOST': 'db.bit.io',
